@@ -1,0 +1,59 @@
+/* Main page container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Page title */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Wrapper for all projects */
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Optional: empty state */
+.emptyState {
+  text-align: center;
+  color: #777;
+  margin-top: 40px;
+}
+
+/* Full-width fancy button */
+.addButton {
+  width: 100%;
+  margin-top: 24px;
+  padding: 16px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  color: white;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.addButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Click effect */
+.addButton:active {
+  transform: translateY(0);
+  box-shadow: none;
+}

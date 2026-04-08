@@ -1,0 +1,45 @@
+/* Base button (shared by ALL buttons) */
+.button {
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+/* Full width option */
+.fullWidth {
+  width: 100%;
+}
+
+/* Primary (your fancy gradient button) */
+.primary {
+  color: white;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+
+.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.primary:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* Secondary button */
+.secondary {
+  background-color: #e5e7eb;
+  color: #111;
+}
+
+/* Danger button */
+.danger {
+  background-color: #ef4444;
+  color: white;
+}
